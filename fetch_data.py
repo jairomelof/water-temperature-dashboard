@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 
 # Define paths
-DATA_DIR = "/home/coder/workspace/visualization/app/data"
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "app", "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 STATIONS_URL = "https://raw.githubusercontent.com/jairomelo/NOAA-water-temp-CA/main/stations.csv"
