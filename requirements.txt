@@ -1,0 +1,7 @@
+shiny
+shinylive
+pandas
+requests
+shinywidgets
+ipyleaflet
+matplotlib
